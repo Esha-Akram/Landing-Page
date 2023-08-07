@@ -1,0 +1,107 @@
+#feature .row .col-md-3 {
+    padding: 3rem;
+    width: 25%;
+}
+#feature .row .col-md-3 i.fa {
+    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    font-size: 3.8rem;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    color: #fff;
+    width: 10rem;
+    height: 10rem;
+    padding: 3rem 0;   
+}
+#feature .row .col-md-3 h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    font-family: "Raleway", sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+#feature .row .col-md-3 p{
+    font-size: 1.6rem;
+    color: #777;
+    font-weight: 400;
+}
+#services .row .col-md-4 {
+    padding: 2rem 2rem;
+    width: 29%;  
+}
+#services .row .col-md-4 i.fa {
+    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    font-size: 3.8rem;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    color: #fff;
+    width: 10rem;
+    height: 10rem;
+    padding: 3rem 0;
+    
+}
+#services .row .col-md-4 h3{
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+#services .row .col-md-4 p{
+    font-size: 1.6rem;
+    color: #ffffffbf;
+    font-weight: 400;
+}
+@media only screen and (max-width: 600px) {
+    #services .row .col-md-4 {
+        width: 100%;  
+    }
+    #feature .row .col-md-3 {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #services .row .col-md-4 {
+        width: 80%;  
+    }
+    #feature .row .col-md-3 {
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #services .row .col-md-4 {
+        width: 50%;  
+    }
+    #feature .row .col-md-3 {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #services .row .col-md-4 {
+        width: 29%;  
+    }
+    #feature .row .col-md-3 {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #services .row .col-md-4 {
+        width: 29%;  
+    }
+    #feature .row .col-md-3 {
+        width: 25%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 45%
+    }
+}
+@media only screen and (max-width: 998px) {
+    html{
+        font-size: 55%
+    }
+}

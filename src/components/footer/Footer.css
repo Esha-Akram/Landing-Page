@@ -1,0 +1,19 @@
+#footer{
+    text-align: center;
+    padding: 4rem;
+    color: #888;
+    font-size: 1.6rem;
+    max-width: 100%;
+    background-color: white;
+
+}
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 45%
+    }
+}
+@media only screen and (max-width: 998px) {
+    html{
+        font-size: 55%
+    }
+}

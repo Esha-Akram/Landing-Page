@@ -1,0 +1,107 @@
+#about {
+    display: flex;
+    max-width: 100%;
+    padding: 4rem;
+}
+#about .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#about img {
+    width: 100%;
+    padding: 4rem 4rem;
+}
+#about .content {
+    padding: 4rem;
+    width: 50%;
+}
+#about h2{
+    font-size: 3.6rem;
+    color: #333;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+}
+#about p{
+    display: block;
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    color: #777;
+    font-weight: 400;
+    padding: 3rem 0rem 3rem 0;
+}
+#about h3{
+    font-size: 2.2rem;
+    font-weight: 60rem;
+    color: #333;
+    font-family: "Raleway", sans-serif;
+}
+#about .list{
+    display: flex;
+    flex-wrap: wrap;
+}
+#about .list .col-6{
+    padding: 2rem 3rem 0 0;
+}
+#about .content .col-6 li{
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #777;
+}
+#about .content li:before {
+    font-size: 1.1rem;
+    content: "\f00c";
+    color: #5ca9fb;   
+    font-weight: 300;
+    padding-right: 0.8rem;
+    font-family: "FontAwesome";
+}
+
+
+/* @media only screen and (max-width: 600px) {
+    #about img {
+        width: 100%;
+    }
+    #about .content {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #about img {
+        width: 100%;
+    }
+    #about .content {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #about img {
+        width: 100%;
+    }
+    #about .content {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #about img {
+        width: 100%;
+    }
+    #about .content {
+        width: 50%;
+    }
+} */
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 45%
+    }
+}
+@media only screen and (max-width: 998px) {
+    html{
+        font-size: 55%
+    }
+}

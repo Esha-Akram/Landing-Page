@@ -1,0 +1,22 @@
+#team h4{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+#team p {
+    font-size: 2rem;
+    color: #777;
+}
+#team img{
+    max-width: 100%;
+    padding: 2rem;
+}
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 45%
+    }
+}
+@media only screen and (max-width: 998px) {
+    html{
+        font-size: 55%
+    }
+}

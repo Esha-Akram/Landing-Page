@@ -1,0 +1,44 @@
+#testimonial {
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 10rem;
+    max-width: 100%;
+}
+#testimonial .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#testimonial h2 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+    margin: 0 0 2rem;
+    font-weight: 750;
+    font-size: 3.6rem;
+    color: #333;
+    font-family: "Raleway", sans-serif;
+  }
+#testimonial h2::after {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%) ;
+    height: 0.4rem;
+    width: 6rem;
+    bottom: 0;
+    margin-left: -3rem;
+    left: 50%;
+  }
+  @media only screen and (max-width: 768px) {
+    html{
+        font-size: 45%
+    }
+}
+@media only screen and (max-width: 998px) {
+    html{
+        font-size: 55%
+    }
+}

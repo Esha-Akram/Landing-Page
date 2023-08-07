@@ -1,0 +1,164 @@
+#header .nav-bar {
+    display: flex;
+    padding: 3rem 4rem;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+
+#header .nav-bar .logo {
+    text-decoration: none;
+    color: #5ca9fb;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-weight: 700;
+    float: left;
+    font-family: "Raleway", sans-serif;
+    padding: 0 15rem 0 4rem;
+}
+
+#header .menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+}
+
+#header .menu li {
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 0 2rem;
+}
+
+#header .menu a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #555;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+}
+#header .banner {
+    background-image: linear-gradient(#00000080, #00000080), url("../../assets/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 27rem 10rem;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .content {
+    width: 57%;
+}
+
+#header .content h1 {
+    font-size: 6.2rem;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+#header .content span {
+    color: #5ca9fb;
+}
+
+#header .content p {
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin-bottom: 4rem;
+}
+
+#header .content a {
+    background-color: #5ca9fb;
+    background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    color: white;
+    padding: 1.4rem 3.4rem;
+    text-decoration: none;
+    border-radius: 2.5rem;
+    letter-spacing: 0.1rem;
+    transition: all 0.5s linear;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 50;
+}
+.nav-bar .menu-icon {
+    display: none;
+    color: #5ca9fb;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: auto;
+ }
+@media only screen and (max-width: 600px) { 
+    /* #header .content {
+        width: 50%;
+        text-align: start;
+    } */
+    /* #header .content h1 {
+    font-size: 3rem;
+} */
+/* #header .content p{
+    font-size: 1.5rem;
+} */
+
+/* #header .content a {
+    padding: 1rem 1rem;
+    text-decoration: none;
+    letter-spacing: normal;
+    border-radius: 2.5rem;
+    font-size: 0.8rem;
+    font-weight: 30;
+} */
+}
+/* Media query for screens smaller than 768 pixels */
+@media screen and (max-width: 992px) {
+#header .nav-bar .logo {
+      padding: 0;
+    } 
+#header .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: white;
+    }
+  
+#header .menu.show {
+      display: flex;
+}
+  
+#header .menu li {
+      padding: 2rem 2rem;
+      text-align: start;   
+    }
+.nav-bar .menu-icon {
+      display: block;
+      padding: 0 0.9rem;
+      border: 0.2rem solid #e5e5e5;
+      color: #888;
+    }
+    
+}
+@media only screen and (max-width: 600px) { 
+    html{
+        font-size: 30%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 45%
+    }
+}
+@media only screen and (max-width: 998px) {
+    html{
+        font-size: 55%
+    }
+}

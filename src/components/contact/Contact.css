@@ -1,0 +1,132 @@
+#contact {
+    padding: 10rem 8rem 9rem;
+    max-width: 100%;
+    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    color: #ffffffbf;
+}
+#contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#contact .row .col-8{
+    padding-top: 3rem;
+}
+#contact .form-control{
+    width: 100%;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.6rem;
+    line-height: 1.42857143;
+    color: #444;
+    background-color: #fff;
+    border: 0.1rem solid #ddd;
+    margin-bottom: 2rem;
+ 
+}
+#contact h2 {
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 1.rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 3.6rem;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+  }
+#contact .col-3{
+  font-size: 1.6rem;
+  padding-left: 9rem;
+  text-align: start;
+}
+#contact .info{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    font-size: 1.7rem;
+}
+#contact .col-3 .content{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: column wrap;
+}
+#contact h3{
+    color: #fff;
+    font-weight: 400;
+  }
+#contact p{
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+  }
+#contact .btn-form {
+    margin: 3rem 0;
+    background: transparent;
+    border: 0.2rem solid #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 2.5rem;
+    transition: all 0.5s linear;
+    padding: 1.4rem 3.4rem;
+    letter-spacing: 0.1rem;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+  }
+#contact .btn-form:hover{
+    color:#5ca9fb;
+    background-color: white;
+    cursor: pointer;
+  }
+  #contact .social-row{
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+#contact .btn-social {
+    margin: 0 2rem;
+    color: #fff;
+    background: transparent;
+    padding:1.4rem 2.3rem;
+    font-size: 2.5rem;
+    border: 0.3rem solid #fff;
+    border-radius: 5rem;
+    cursor: pointer;
+  }
+#contact .btn-social:hover{
+    color:#5ca9fb;
+    background-color: white;
+    cursor: pointer;
+  }
+
+
+/* @media only screen and (max-width: 600px) {
+    #contact .btn-social {
+      padding:1rem 2rem;
+      font-size: 2rem;
+      border: 0.3rem solid #fff;
+    }
+}
+@media only screen and (min-width: 600px) {
+  #contact .btn-social {
+    padding:1rem 2rem;
+    font-size: 2rem;
+    border: 0.3rem solid #fff;
+  }
+}
+@media only screen and (min-width: 768px) {
+    #testimonial .col-4{
+        width: 80%;
+    }
+} */
+@media only screen and (max-width: 768px) {
+  html{
+      font-size: 45%
+  }
+}
+@media only screen and (max-width: 998px) {
+  html{
+      font-size: 55%
+  }
+}

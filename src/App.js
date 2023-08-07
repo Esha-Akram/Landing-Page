@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header/Header';
+import Feature from './components/features/Feature';
+import About from './components/about/About';
+import Service from './components/services/Service';
+import Gallery from './components/gallery/Gallery';
+import Testimonial from './components/testimonials/Testimonial';
+import Team from './components/team/Team';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Feature />
+      <About />
+      <Service />
+      <Gallery />
+      <Testimonial />
+      <Team />
+      <Contact />
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
+
+// what is the difference between px % em rem vh vw vmax vmin - (minHeigh maxHight minWidth maxWidth) read that before start the responsiveness

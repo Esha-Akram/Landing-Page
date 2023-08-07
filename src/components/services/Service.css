@@ -1,0 +1,38 @@
+#services {
+    max-width: 100%;
+    text-align: center;
+    padding: 10rem 0;
+    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    color: #fff;
+}
+#services h2{
+    font-size: 3.6rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    font-family: "Raleway", sans-serif;
+}
+#services p{
+    font-size: 1.8rem;
+    color: #ffffffbf;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+#services .row{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    justify-content:space-evenly;
+    padding: 2rem 2rem;
+}
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 45%
+    }
+}
+@media only screen and (max-width: 998px) {
+    html{
+        font-size: 55%
+    }
+}

@@ -1,0 +1,52 @@
+#gallery .model{
+    width: 33%;
+}
+#gallery a{
+    text-decoration: none;
+  
+}
+#gallery img{
+    max-width: 100%;
+    padding: 0 0.1rem 0 0.1rem;   
+}
+
+
+@media only screen and (max-width: 600px) {
+    #gallery .model{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #gallery .model{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #gallery .model{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #gallery .model{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #gallery .model{
+        width: 33%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 45%
+    }
+}
+@media only screen and (max-width: 998px) {
+    html{
+        font-size: 55%
+    }
+}
